@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E98584F7-11EB-454B-B076-4E60C3C3CFEA}</ProjectGuid>
+    <RootNamespace>GeoSymbolSys</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\CurPan.cur" />
+    <None Include="res\CurPan.ico" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\CurZoomIn.cur" />
+    <None Include="res\CurZoomIn.ico" />
+    <None Include="res\CurZoomOut.cur" />
+    <None Include="res\CurZoomOut.ico" />
+    <None Include="res\DisplayTools.png" />
+    <None Include="res\filelarge.bmp" />
+    <None Include="res\filesmall.bmp" />
+    <None Include="res\GeoSymbolSys.ico" />
+    <None Include="res\GeoSymbolSys.rc2" />
+    <None Include="res\GeoSymbolSysDoc.ico" />
+    <None Include="res\main.bmp" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\SymLinePng.png" />
+    <None Include="res\SymPointPng.png" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="res\writelarge.bmp" />
+    <None Include="res\writesmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AreaRect.h" />
+    <ClInclude Include="GeoSymbolSys.h" />
+    <ClInclude Include="GeoSymbolSysDoc.h" />
+    <ClInclude Include="GeoSymbolSysView.h" />
+    <ClInclude Include="GIS_GeoLine.h" />
+    <ClInclude Include="GIS_GeoPoint.h" />
+    <ClInclude Include="GIS_SymEleArc.h" />
+    <ClInclude Include="GIS_SymEleCircle.h" />
+    <ClInclude Include="GIS_SymLine.h" />
+    <ClInclude Include="GIS_SymElePloy.h" />
+    <ClInclude Include="GIS_SymPoint.h" />
+    <ClInclude Include="GIS_SymEleRect.h" />
+    <ClInclude Include="GIS_SymEleSegment.h" />
+    <ClInclude Include="GIS_ToolAddLine.h" />
+    <ClInclude Include="GIS_ToolAddPnt.h" />
+    <ClInclude Include="GIS_ToolPan.h" />
+    <ClInclude Include="GIS_ToolSelect.h" />
+    <ClInclude Include="GIS_ToolZoomIn.h" />
+    <ClInclude Include="GIS_ToolZoomOut.h" />
+    <ClInclude Include="GISWorkSpace.h" />
+    <ClInclude Include="IGIS_GeoEleBase.h" />
+    <ClInclude Include="IGIS_SymBase.h" />
+    <ClInclude Include="IGIS_SymElement.h" />
+    <ClInclude Include="IGIS_ToolBase.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Vertex2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AreaRect.cpp" />
+    <ClCompile Include="GeoSymbolSys.cpp" />
+    <ClCompile Include="GeoSymbolSysDoc.cpp" />
+    <ClCompile Include="GeoSymbolSysView.cpp" />
+    <ClCompile Include="GIS_GeoLine.cpp" />
+    <ClCompile Include="GIS_GeoPoint.cpp" />
+    <ClCompile Include="GIS_SymEleArc.cpp" />
+    <ClCompile Include="GIS_SymEleCircle.cpp" />
+    <ClCompile Include="GIS_SymLine.cpp" />
+    <ClCompile Include="GIS_SymElePloy.cpp" />
+    <ClCompile Include="GIS_SymPoint.cpp" />
+    <ClCompile Include="GIS_SymEleRect.cpp" />
+    <ClCompile Include="GIS_SymEleSegment.cpp" />
+    <ClCompile Include="GIS_ToolAddLine.cpp" />
+    <ClCompile Include="GIS_ToolAddPnt.cpp" />
+    <ClCompile Include="GIS_ToolPan.cpp" />
+    <ClCompile Include="GIS_ToolSelect.cpp" />
+    <ClCompile Include="GIS_ToolZoomIn.cpp" />
+    <ClCompile Include="GIS_ToolZoomOut.cpp" />
+    <ClCompile Include="GISWorkSpace.cpp" />
+    <ClCompile Include="IGIS_GeoEleBase.cpp" />
+    <ClCompile Include="IGIS_SymBase.cpp" />
+    <ClCompile Include="IGIS_SymElement.cpp" />
+    <ClCompile Include="IGIS_ToolBase.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Vertex2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GeoSymbolSys.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GeoSymbolSys.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DataGeoElement">
+      <UniqueIdentifier>{e539bd6f-386d-42ee-b2ac-86f593a83196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSymbol">
+      <UniqueIdentifier>{3d9202c2-fff1-48eb-aff9-e9bc1ba0ecc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSymbol\DataSymbolElement">
+      <UniqueIdentifier>{b3f09be6-49aa-4432-86ad-142fd5ade711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{067ba8be-3b83-4b60-ac46-143da36bf8bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GeoSymbolSys.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GeoSymbolSysDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GeoSymbolSys.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurPan.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurZoomIn.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurZoomOut.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurPan.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurZoomIn.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CurZoomOut.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DisplayTools.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SymPointPng.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SymLinePng.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeoSymbolSys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoSymbolSysDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoSymbolSysView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IGIS_GeoEleBase.h">
+      <Filter>DataGeoElement</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex2D.h">
+      <Filter>DataGeoElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_GeoLine.h">
+      <Filter>DataGeoElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_GeoPoint.h">
+      <Filter>DataGeoElement</Filter>
+    </ClInclude>
+    <ClInclude Include="IGIS_SymBase.h">
+      <Filter>DataSymbol</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymLine.h">
+      <Filter>DataSymbol</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymPoint.h">
+      <Filter>DataSymbol</Filter>
+    </ClInclude>
+    <ClInclude Include="IGIS_SymElement.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="IGIS_ToolBase.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolAddLine.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolZoomOut.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolAddPnt.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolPan.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolSelect.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_ToolZoomIn.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaRect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymEleArc.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymEleCircle.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymElePloy.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymEleRect.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GIS_SymEleSegment.h">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClInclude>
+    <ClInclude Include="GISWorkSpace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeoSymbolSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoSymbolSysDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoSymbolSysView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IGIS_GeoEleBase.cpp">
+      <Filter>DataGeoElement</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex2D.cpp">
+      <Filter>DataGeoElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_GeoLine.cpp">
+      <Filter>DataGeoElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_GeoPoint.cpp">
+      <Filter>DataGeoElement</Filter>
+    </ClCompile>
+    <ClCompile Include="IGIS_SymBase.cpp">
+      <Filter>DataSymbol</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymLine.cpp">
+      <Filter>DataSymbol</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymPoint.cpp">
+      <Filter>DataSymbol</Filter>
+    </ClCompile>
+    <ClCompile Include="IGIS_SymElement.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="IGIS_ToolBase.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolAddLine.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolZoomOut.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolAddPnt.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolPan.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolSelect.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_ToolZoomIn.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymEleArc.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymEleCircle.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymElePloy.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymEleRect.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GIS_SymEleSegment.cpp">
+      <Filter>DataSymbol\DataSymbolElement</Filter>
+    </ClCompile>
+    <ClCompile Include="GISWorkSpace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GeoSymbolSys.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
